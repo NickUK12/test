@@ -1,0 +1,17 @@
+plugins {
+  id 'java'
+  id 'application'
+}
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'tech.gather.FakeTest'
+        )
+    }
+}
+
+
+application {
+  mainClass = 'tech.gather.FakeTest'
+}
